@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">List View App</string>
+    <string-array name="images">
+        <item>@drawable/redwoodnightlights</item>
+        <item>@drawable/milfordsound</item>
+        <item>@drawable/franzjosefglacierguides</item>
+    </string-array>
+    <string-array name="titles">
+        <item>Red Wood</item>
+        <item>Milford Sound</item>
+        <item>Franz Josef Glacier</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>Rotorua\'s Redwood Forest has been lit up with a new nocturnal tourism experience,
+            Redwoods Nightlights.</item>
+        <item>Deep within Fiordland National Park lies Milford Sound, New Zealand’s most stunning
+            natural attraction. With its magical combination of mountain peaks, ink-dark waters and
+            superb dramatic forest-clad cliffs, it must be seen to be believed.</item>
+        <item>Franz Josef Glacier Guides take guests to see the very best of New Zealand\'s West
+            Coast glaciers.</item>
+    </string-array>
+</resources>
