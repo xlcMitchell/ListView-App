@@ -19,4 +19,5 @@
         <item>Franz Josef Glacier Guides take guests to see the very best of New Zealand\'s West
             Coast glaciers.</item>
     </string-array>
+    <string name="tourist_destination_object">TOURIST_DESTINATION_OBJECT</string>
 </resources>
