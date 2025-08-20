@@ -1,0 +1,30 @@
+<androidx.cardview.widget.CardView
+    android:id="@+id/myCard"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:backgroundTint="#1D2833"
+    app:cardCornerRadius="20dp"
+    android:elevation="10dp">
+
+    <ImageView
+        android:id="@+id/destinationCardImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/redwoodnightlights" />
+
+    <TextView
+        android:id="@+id/destinationCardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="20dp"
+        android:text="Red Wood NightLight"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>
