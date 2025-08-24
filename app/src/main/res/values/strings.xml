@@ -1,15 +1,24 @@
 <resources>
     <string name="app_name">List View App</string>
+
+    //---- IMAGES ARRAY ----//
+
     <string-array name="images">
         <item>@drawable/redwoodnightlights</item>
         <item>@drawable/milfordsound</item>
         <item>@drawable/franzjosefglacierguides</item>
     </string-array>
+
+    //---- TITLES ARRAY ----//
+
     <string-array name="titles">
         <item>Red Wood</item>
         <item>Milford Sound</item>
         <item>Franz Josef Glacier</item>
     </string-array>
+
+    //---- DESCRIPTIONS ARRAY ----//
+
     <string-array name="descriptions">
         <item>Rotorua\'s Redwood Forest has been lit up with a new nocturnal tourism experience,
             Redwoods Nightlights.</item>
@@ -19,5 +28,51 @@
         <item>Franz Josef Glacier Guides take guests to see the very best of New Zealand\'s West
             Coast glaciers.</item>
     </string-array>
+
+    //---- BABY NAMES ARRAY ----//
+
+    <string-array name="baby_names">
+        <item>Oliver,boy</item>
+        <item>Noah,boy</item>
+        <item>Jack,boy</item>
+        <item>Leo,boy</item>
+        <item>George,boy</item>
+        <item>Charlie,boy</item>
+        <item>Lucas,boy</item>
+        <item>Theodore,boy</item>
+        <item>William,boy</item>
+        <item>Luca,boy</item>
+        <item>Elijah,boy</item>
+        <item>Liam,boy</item>
+        <item>Mason,boy</item>
+        <item>James,boy</item>
+        <item>Thomas,boy</item>
+        <item>Hudson,boy</item>
+        <item>Arlo,boy</item>
+        <item>Lachlan,boy</item>
+        <item>Archie,boy</item>
+        <item>Arthur,boy</item>
+        <item>Charlotte,girl</item>
+        <item>Isla,girl</item>
+        <item>Amelia,girl</item>
+        <item>Olivia,girl</item>
+        <item>Ava,girl</item>
+        <item>Willow,girl</item>
+        <item>Lily,girl</item>
+        <item>Isabella,girl</item>
+        <item>Mila,girl</item>
+        <item>Ella,girl</item>
+        <item>Mia,girl</item>
+        <item>Sophie,girl</item>
+        <item>Hazel,girl</item>
+        <item>Harper,girl</item>
+        <item>Emily,girl</item>
+        <item>Lucy,girl</item>
+        <item>Chloe,girl</item>
+        <item>Grace,girl</item>
+        <item>Ruby,girl</item>
+        <item>Matilda,girl</item>
+    </string-array>
     <string name="tourist_destination_object">TOURIST_DESTINATION_OBJECT</string>
+    <string name="person_object">PERSON_OBJECT</string>
 </resources>

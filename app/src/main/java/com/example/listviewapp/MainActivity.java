@@ -6,6 +6,7 @@ import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
@@ -24,9 +25,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+
+        //--- VARIABLES ---
+
         ListView destinationList;
         List<TouristDestination> data = new ArrayList<>();
-
+        Button recyclerBtn = findViewById(R.id.btn);
         createDataList(data);
         destinationList = findViewById(R.id.myListView); //may need updating??
         TouristDestinationAdapter adapter = new TouristDestinationAdapter(getApplicationContext(),data); //new Adapter object with our destination data
@@ -41,6 +45,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent); //start new activity -- go to selected destination
             }
         });
+
+        recyclerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Starting the RecyclerViewActivity
+                Intent intent = new Intent(getApplicationContext(),RecyclerViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
     //Method below creates the list of all of the tourist destinations
     //to be displayed on the activity_main

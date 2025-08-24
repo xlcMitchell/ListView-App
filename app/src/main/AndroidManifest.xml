@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ListViewApp">
         <activity
+            android:name=".AddPersonNameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".TouristDestinationDetailsActivity"
             android:exported="false" />
         <activity
